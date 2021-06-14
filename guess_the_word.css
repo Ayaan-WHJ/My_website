@@ -1,0 +1,87 @@
+body
+{
+	background: rgb(0,18,255);
+	background: linear-gradient(90deg, rgba(0,18,255,1) 0%, rgba(255,0,0,1) 50%, rgba(237,255,0,1) 100%);
+	color: white;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h4
+{
+	text-align: left;
+	color: white;
+}
+iframe
+{
+margin-left:100px;
+}
+
+#button10
+{
+	background: blue;
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+	width:20%;
+	height:50px;
+margin-left: 780px;	
+}
+img
+{
+	height: 300px;
+	width: 200px;
+}
+h3
+{
+	text-align: left;
+	color: rgb(255, 255, 255);
+
+}
+#bhujangasan
+{
+	width: 500px;
+}
+#bow_pose
+{
+	width: 500px;
+}
+h2
+{
+	color: black;
+}
+#parvatasan
+{
+	width: 500px;
+}
+#surya_namaskar
+{
+	width: 500px;
+}

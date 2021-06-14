@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="guess_the_word.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	<center>
+		<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			  </button>
+			
+				</div>
+				
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="books.html">Books</a></li>
+				<li><a href="indoor.html">Indoor Games</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="challenges.html">Challenges</a></li
+			  </ul>
+			</div>
+		
+		</nav>
+		<br>
+		<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+			<h2> Player 1 login form the Game</h3>
+			<label >User Name:</label>
+			<input style="width:90%" type="text" id="player1_name" class="form-control" placeholder="Player 1 Name">
+			<br>
+			
+	</div>
+	<br>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h2> Player 2 login form the Game</h3>
+		<label >User Name:</label>
+		<input style="width:90%" type="text" id="player2_name" class="form-control" placeholder="Player 2 Name">	
+		<br>
+	</div>
+    <br>
+    <br>
+    <br>
+    
+	<button style="width:30%" class="btn btn-primary" onclick="addUser()" id="button_1">Log in </button>
+</center>
+
+<br><br><br><br>
+
+
+
+</body>
+</html>

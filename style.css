@@ -1,0 +1,149 @@
+.heading
+{
+    font-size: 30px;
+    width: 75%;
+    margin:0px;
+    box-shadow: 5px 5px 5px rgb(0, 59, 253);
+    background: rgb(255,40,40);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+border-radius:20px;
+margin-top: 15px;
+border-width: 5px;
+border-style:double;
+font-family:cursive;
+font-weight: 600;
+text-decoration:underline;
+margin-left:300px;
+}
+
+body
+{
+  
+    background: rgb(255,40,40);
+background: linear-gradient(90deg, rgba(255,40,40,1) 0%, rgba(248,81,31,1) 15%, rgba(0,14,255,1) 30%, rgba(0,250,255,1) 50%, rgba(45,44,165,1) 70%, rgba(255,0,113,1) 85%, rgba(255,0,65,1) 100%);
+}
+.my_info:hover{background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);}   
+
+.my_info{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 600px;
+    width: 900px;
+    
+}
+#button1{
+    text-decoration: underline;
+    color: black;
+    height: 40px;
+    width:200px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+}   
+#button2{
+    text-decoration:underline;
+    height: 40px;
+    width:200px;
+    color: black;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+}
+
+    .copy_right_footer
+    {
+        position: fixed;
+        color: rgb(255, 0, 0);
+        bottom: 10;
+        width: 90%;
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+        line-height: 3;
+        text-align:center;
+        height: 5%;
+        margin-bottom: 20px;
+    margin-left: 50px;
+    font-family: cursive;
+    font-size: large;
+    }
+html
+{
+border-style:double;
+border-width:30;
+border-color:rgb(0, 0, 0) ;
+}
+
+#button_books
+{
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-style: italic;
+font-weight: bold;
+background: rgb(255,40,40);
+background: linear-gradient(90deg, rgba(255,40,40,1) 0%, rgba(248,81,31,1) 15%, rgba(0,14,255,1) 30%, rgba(0,250,255,1) 50%, rgba(45,44,165,1) 70%, rgba(255,0,113,1) 85%, rgba(255,0,65,1) 100%);
+}
+.books{
+    cursor: pointer;
+}
+.books hr{
+    margin-bottom: 10px;
+}
+#first_book
+{
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#second_book
+{
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+#book_harry
+{
+    height: 500px;
+    width: 1000px;
+}
+#third_book
+{
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+#fourth_book
+{
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+#fifth_book
+{
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#indoor_button
+{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+    color: white;
+    margin-left: 900px;
+    height: 50px; ;
+    width: 200px;
+}
+
+#back_button
+{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+    color: white;
+    margin-left: 900px;
+    height: 50px; ;
+    width: 200px;
+}
+
+.treasure_hunt
+{
+    color: white;
+}
